@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "lastUpdated": "2025-10-12",
+  "contactEmail": "shelfwise@example.com",
+  "affiliates": {
+    "amazon": {
+      "enabled": true,
+      "tag": "youraffiliateID-20",
+      "name": "Amazon",
+      "urlTemplate": "https://amazon.com/dp/{ISBN}?tag={TAG}",
+      "searchTemplate": "https://amazon.com/s?k={QUERY}&tag={TAG}",
+      "icon": "cart.fill",
+      "priority": 1,
+      "regions": ["us", "canada"]
+    },
+    "amazonuk": {
+      "enabled": true,
+      "tag": "youraffiliateID-21",
+      "name": "Amazon UK",
+      "urlTemplate": "https://www.amazon.co.uk/dp/{ISBN}?tag={TAG}",
+      "searchTemplate": "https://www.amazon.co.uk/s?k={QUERY}&tag={TAG}",
+      "icon": "cart.fill",
+      "priority": 1,
+      "regions": ["uk"]
+    },
+    "waterstones": {
+      "enabled": true,
+      "tag": "",
+      "name": "Waterstones",
+      "urlTemplate": "https://www.waterstones.com/book///{ISBN}",
+      "searchTemplate": "https://www.waterstones.com/books/search/term/{QUERY}",
+      "icon": "book.pages",
+      "priority": 2,
+      "regions": ["uk"]
+    },
+    "bookshopuk": {
+      "enabled": true,
+      "tag": "shelfwise-20",
+      "name": "Bookshop.org",
+      "urlTemplate": "https://uk.bookshop.org/search?keywords={ISBN}",
+      "searchTemplate": "https://uk.bookshop.org/search?keywords={QUERY}",
+      "icon": "book.circle",
+      "priority": 3,
+      "regions": ["uk"]
+    },
+    "bookshop": {
+      "enabled": true,
+      "tag": "shelfwise-20",
+      "name": "Bookshop.org",
+      "urlTemplate": "https://bookshop.org/search?keywords={ISBN}",
+      "searchTemplate": "https://bookshop.org/search?keywords={QUERY}",
+      "icon": "book.circle",
+      "priority": 3,
+      "regions": ["us"]
+    },
+    "barnesnoble": {
+      "enabled": false,
+      "tag": "yourBNID",
+      "name": "Barnes & Noble",
+      "urlTemplate": "https://www.barnesandnoble.com/w/{ISBN}",
+      "searchTemplate": "https://www.barnesandnoble.com/s/{QUERY}",
+      "icon": "book.closed",
+      "priority": 4,
+      "regions": ["us"]
+    },
+    "googlebooks": {
+      "enabled": true,
+      "tag": "",
+      "name": "Google Books",
+      "urlTemplate": "https://books.google.com/books?isbn={ISBN}",
+      "searchTemplate": "https://books.google.com/books?q={QUERY}",
+      "icon": "magnifyingglass",
+      "priority": 10
+    },
+    "goodreads": {
+      "enabled": true,
+      "tag": "",
+      "name": "Goodreads",
+      "urlTemplate": "https://www.goodreads.com/search?q={ISBN}",
+      "searchTemplate": "https://www.goodreads.com/search?q={QUERY}",
+      "icon": "star",
+      "priority": 11
+    },
+    "blackwells": {
+      "enabled": false,
+      "tag": "",
+      "name": "Blackwell's",
+      "urlTemplate": "https://blackwells.co.uk/bookshop/product/{ISBN}",
+      "searchTemplate": "https://blackwells.co.uk/bookshop/search?keyword={QUERY}",
+      "icon": "book.closed",
+      "priority": 6,
+      "regions": ["uk"]
+    }
+  }
+}
