@@ -4,6 +4,7 @@
   "contactEmail": "shelfwise@example.com",
   "affiliates": {
     "amazon": {
+      "key": "amazon",
       "enabled": true,
       "tag": "youraffiliateID-20",
       "name": "Amazon",
@@ -14,6 +15,7 @@
       "regions": ["us", "canada"]
     },
     "amazonuk": {
+      "key": "amazonuk",
       "enabled": true,
       "tag": "youraffiliateID-21",
       "name": "Amazon UK",
@@ -24,6 +26,7 @@
       "regions": ["uk"]
     },
     "waterstones": {
+      "key": "waterstones",
       "enabled": true,
       "tag": "",
       "name": "Waterstones",
@@ -34,6 +37,7 @@
       "regions": ["uk"]
     },
     "bookshopuk": {
+      "key": "bookshopuk",
       "enabled": true,
       "tag": "shelfwise-20",
       "name": "Bookshop.org",
@@ -44,6 +48,7 @@
       "regions": ["uk"]
     },
     "bookshop": {
+      "key": "bookshop",
       "enabled": true,
       "tag": "shelfwise-20",
       "name": "Bookshop.org",
@@ -54,6 +59,7 @@
       "regions": ["us"]
     },
     "barnesnoble": {
+      "key": "barnesnoble",
       "enabled": false,
       "tag": "yourBNID",
       "name": "Barnes & Noble",
@@ -64,6 +70,7 @@
       "regions": ["us"]
     },
     "googlebooks": {
+      "key": "googlebooks",
       "enabled": true,
       "tag": "",
       "name": "Google Books",
@@ -73,6 +80,7 @@
       "priority": 10
     },
     "goodreads": {
+      "key": "goodreads",
       "enabled": true,
       "tag": "",
       "name": "Goodreads",
@@ -82,6 +90,7 @@
       "priority": 11
     },
     "blackwells": {
+      "key": "blackwells",
       "enabled": false,
       "tag": "",
       "name": "Blackwell's",
